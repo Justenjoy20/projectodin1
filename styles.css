@@ -2,7 +2,7 @@
     list-style-type: none;
     color: black;
     font-size: 15px;
-    text-decoration: none;
+    text-decoration: none; /* I don't know why text-dec do not work*/
     }
 .container1 {margin:10px auto;
 border:2px solid black;
@@ -17,6 +17,8 @@ text-align: center;}
     height: 233px;
     margin: auto;
 }
+/*What's the thing with how <a> and <img> interact. 
+More precisely I can't figure out how to dimension properly my images. And why the dimensions of images changes when I put them in <a>*/
 .container2{margin:0 auto;
 width:400px;
 border:2px solid red;
@@ -24,5 +26,5 @@ display: flex;
 flex-direction: column;
 gap:10px;
 padding: 10px;
-flex: 3;
+
 }
