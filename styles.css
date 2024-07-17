@@ -1,9 +1,11 @@
 * {box-sizing: border-box;}
+h1 {margin: 5px;}
 #list {padding:10px;
     list-style-type: none;
     color: black;
     font-size: 15px;
      /* I don't know why text-dec do not work. Target the link*/
+     margin: 5px;
     }
     a {text-decoration: none;
     color: black;
@@ -23,7 +25,7 @@ background-color: lightgreen;}
     margin: auto;
     border: 2px black solid;}
 .img3 {
-    height: 223px;
+    height: 160px;
     margin: auto;
     border: 2px black solid;
 }
@@ -37,4 +39,16 @@ align-items: center;
 gap:10px;
 padding: 10px;
 background-color: lightgreen;
+
 }
+.container3 {display: flex;}
+    .container3 .img1{height:139px;
+        margin: auto;
+        border: 2px black solid;}
+        .container3 .img2{height:139px;
+            margin: auto;
+            border: 2px black solid;}
+.container4 {display: flex;
+align-items: center;}
+.container5 {display: flex;}
+
