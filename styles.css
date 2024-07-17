@@ -1,0 +1,28 @@
+#list {padding:10px;
+    list-style-type: none;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    }
+.container1 {margin:10px auto;
+border:2px solid black;
+width:600px;
+text-align: center;}
+.img1{height: 170px ;
+    margin: auto;
+}
+.img2{height:170px;
+    margin: auto;}
+.img3 {
+    height: 233px;
+    margin: auto;
+}
+.container2{margin:0 auto;
+width:400px;
+border:2px solid red;
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+flex: 3;
+}
